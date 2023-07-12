@@ -110,7 +110,7 @@ The `FieldPath` can target properties of properties via `.` notation, e.g. a `Fi
 ### `workspace_field_test/3`
 
 ```prolog
-workspace_field(
+workspace_field_test(
   +WorkspaceCwd,
   +FieldPath,
   +CheckCode
