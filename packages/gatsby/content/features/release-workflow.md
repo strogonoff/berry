@@ -47,7 +47,7 @@ Starting from the 2.0, the `yarn version` command now accepts a new flag: `--def
 yarn version minor --deferred
 ```
 
-Will not cause the `package.json` file to change! Instead, Yarn will create (or reuse, if you're inside a branch) a file within the `.yarn/versions` directory. This file will record the requested upgrade:
+Will not cause the `package.json` file to change! Instead, Yarn will create (or reuse, if you're inside a branch) a *release definition* file within the `.yarn/versions` directory. This file will record the requested upgrade:
 
 ```yaml
 releases:
